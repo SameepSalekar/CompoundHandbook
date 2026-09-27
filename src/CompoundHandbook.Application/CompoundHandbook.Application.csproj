@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompoundHandbook.Domain\CompoundHandbook.Domain.csproj" />
+    <ProjectReference Include="..\CompoundHandbook.DataContracts\CompoundHandbook.DataContracts.csproj" />
+    <ProjectReference Include="..\CompoundHandbook.Parsing\CompoundHandbook.Parsing.csproj" />
+    <ProjectReference Include="..\CompoundHandbook.Resolution\CompoundHandbook.Resolution.csproj" />
+    <ProjectReference Include="..\CompoundHandbook.Classification\CompoundHandbook.Classification.csproj" />
+    <ProjectReference Include="..\CompoundHandbook.Calculations\CompoundHandbook.Calculations.csproj" />
+    <ProjectReference Include="..\CompoundHandbook.Validation\CompoundHandbook.Validation.csproj" />
+    <ProjectReference Include="..\CompoundHandbook.StructureGeneration\CompoundHandbook.StructureGeneration.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
