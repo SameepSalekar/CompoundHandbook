@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\CompoundHandbook.Domain\CompoundHandbook.Domain.csproj" />
+    <ProjectReference Include="..\CompoundHandbook.Validation\CompoundHandbook.Validation.csproj" />
+    <ProjectReference Include="..\CompoundHandbook.Cheminformatics\CompoundHandbook.Cheminformatics.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>
