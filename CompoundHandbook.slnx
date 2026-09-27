@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/src/">
+    <Project Path="src/CompoundHandbook.DataContracts/CompoundHandbook.DataContracts.csproj" />
     <Project Path="src/CompoundHandbook.Domain/CompoundHandbook.Domain.csproj" />
   </Folder>
 </Solution>
