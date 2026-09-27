@@ -3,5 +3,6 @@
     <Project Path="src/CompoundHandbook.DataContracts/CompoundHandbook.DataContracts.csproj" />
     <Project Path="src/CompoundHandbook.Domain/CompoundHandbook.Domain.csproj" />
     <Project Path="src/CompoundHandbook.Parsing/CompoundHandbook.Parsing.csproj" />
+    <Project Path="src/CompoundHandbook.Resolution/CompoundHandbook.Resolution.csproj" />
   </Folder>
 </Solution>
