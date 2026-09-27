@@ -11,5 +11,6 @@
     <Project Path="src/CompoundHandbook.Resolution/CompoundHandbook.Resolution.csproj" />
     <Project Path="src/CompoundHandbook.StructureGeneration/CompoundHandbook.StructureGeneration.csproj" />
     <Project Path="src/CompoundHandbook.Validation/CompoundHandbook.Validation.csproj" />
+    <Project Path="src/CompoundHandbook.Web/CompoundHandbook.Web.csproj" />
   </Folder>
 </Solution>
