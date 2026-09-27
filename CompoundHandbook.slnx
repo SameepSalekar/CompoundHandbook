@@ -1,6 +1,7 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/CompoundHandbook.Cheminformatics/CompoundHandbook.Cheminformatics.csproj" />
+    <Project Path="src/CompoundHandbook.Classification/CompoundHandbook.Classification.csproj" />
     <Project Path="src/CompoundHandbook.DataContracts/CompoundHandbook.DataContracts.csproj" />
     <Project Path="src/CompoundHandbook.Domain/CompoundHandbook.Domain.csproj" />
     <Project Path="src/CompoundHandbook.Parsing/CompoundHandbook.Parsing.csproj" />
