@@ -66,17 +66,21 @@ namespace CompoundHandbook.Domain
     // Molecule inherits from the ChemicalEntity abstract base class
     public class Molecule : ChemicalEntity
     {
+        public MolecularGraph Graph { get; }
+
         // The following constructor will be called whenever a new Molecule object gets created.
         /*
         The arguments will be received by the Molecule constructor and are passed upwards to the
         ChemicalEntity constructor, which is being called by base(...).
         */
-        public Molecule(string id, string displayName, IReadOnlyCollection<ChemicalIdentifier> identifiers) : base(id, displayName, identifiers)
+        public Molecule(string id, string displayName, IReadOnlyCollection<ChemicalIdentifier> identifiers, MolecularGraph graph) : base(id, displayName, identifiers)
         {
             /*
             The body of the Molecule constructor is empty because all three properties
             are initialized by the ChemicalEntity constructor.
             */
+
+            Graph = graph;
         }
     }
 }

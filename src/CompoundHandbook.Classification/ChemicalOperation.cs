@@ -154,7 +154,7 @@ namespace CompoundHandbook.Classification
 
 
         // Represents the operation of generating a skeletal structure of a chemical entity.
-        GenerateSkeletalStrucuture,
+        GenerateSkeletalStructure,
         /*
         A skeletal structure, also called a line-angle structure, is a simplified structural
         representation in which the carbon framework of a molecule is primarily represented

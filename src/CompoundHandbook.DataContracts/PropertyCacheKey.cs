@@ -1,4 +1,4 @@
-/*
+/* 
 When the Compound Handbook retrieves an experimental property from a property provider,
 it may be useful to temporarily store that retrieved property so that the same information
 does not have to be retrieved again every time it is requested.

@@ -104,7 +104,7 @@ namespace CompoundHandbook.Classification
         or inside the constructor, but it cannot later be reassigned by the other
         methods of this class.
         */        
-        private readonly IReadOnlyCollection<IChemicalClassificationRule> _ClassificationRules;
+        private readonly IReadOnlyCollection<IChemicalClassificationRule> _classificationRules;
 
         /*
         Private read-only field that stores the applicability policy used to determine
