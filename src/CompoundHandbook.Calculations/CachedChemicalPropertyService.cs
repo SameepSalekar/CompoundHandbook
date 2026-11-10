@@ -186,5 +186,10 @@ namespace CompoundHandbook.Calculations
             // Stores the supplied TimeSpan representing the cache lifetime inside the _cacheLifetime field.
             _cacheLifetime = cacheLifetime;
         }
+
+        public PropertyRetrievalResult GetProperties(PropertyQuery query)
+        {
+            return _propertyProvider.GetProperties(query);
+        }
     }
 }
